@@ -1,0 +1,128 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background: lightgrey;
+    font-family: sans-serif;
+   display: flex;
+   justify-content: center;
+    align-items: center;
+    min-width: 100%;
+    max-width: 100vh;
+}
+.container{
+    max-width: 100%;
+    background: aqua;
+    border-radius: 10px;
+    overflow: hidden;
+    width: 500px;
+}
+form{
+    padding: 30px 40px;
+}
+.header{
+    padding: 15px 20px;
+    text-align: center;
+    background: rgb(173, 173, 173);
+}
+.form-origin{
+    padding-bottom: 7px;
+    margin-bottom: 10px;
+    position: relative;
+}
+.form-origin label{
+    display: inline-block;
+    font-size: 20px;
+
+}
+.form-origin input{
+    padding: 7px;
+    font-size: 15px;
+    border-radius: 5px;
+    border: 2px solid white;
+    padding: 10px;
+    display: block;
+    width: 100%;
+}
+.form-origin input:focus{
+    border-color: gray;
+    outline: 0;
+}
+.form-origin.error input{
+    border-color: rgb(199, 11, 11);
+}
+.form-origin.success input{
+    border-color: green;
+}
+.form-origin .error{
+    font-size: 13px;
+    height: 13px;
+    color: rgb(199, 11, 11);
+}
+.form-origin .pass-check{
+    display: block;
+    padding-top: 5px;
+}
+.form-origin .pass-check .check01,.check02,.check03,.check04,.check05,.check06{
+    display: block;
+    margin-bottom: 3px;
+    color: rgb(211, 8, 8);
+    position: relative;
+    width: 92%;
+    
+}
+.form-origin #see{
+    position: relative;
+    /* top: 50%; */
+    left: 90%;
+}
+.form-origin #eye{
+    position: absolute;
+    top: 18%;
+    left: 90%;
+    z-index: 1;
+    font-size: 25x;
+    cursor: pointer;
+    visibility: hidden;
+    color: black;
+    font-weight: 500;
+}
+.form-origin #eye2{
+    position: absolute;
+    top: 18%;
+    left: 90%;
+    z-index: 1;
+    font-size: 25x;
+    cursor: pointer;
+    visibility: visible;
+}
+.form-origin #eye-confirm{
+    position: absolute;
+    top: 35px;
+    left: 90%;
+    z-index: 1;
+    font-size: 25x;
+    cursor: pointer;
+    visibility: hidden;
+    color: black;
+    font-weight: 500;
+}
+.form-origin #eye2-confirm{
+    position: absolute;
+    top: 35px;
+    left: 90%;
+    z-index: 1;
+    font-size: 25x;
+    cursor: pointer;
+    visibility: visible;
+}
+#submit{
+    padding: 10px 30px;
+    width: 100%;
+    border-radius: 20px;
+    font-size: 15px;
+    font-weight: 600;
+    border: none;
+}
