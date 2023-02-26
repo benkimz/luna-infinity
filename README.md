@@ -28,4 +28,4 @@ Tracks covered in this repo include:
 * GitHub actions
 
 # Contributors
-[@benkimz](https://github.com/benkimz), [@MiriamAdhiambo](https://github.com/MiriamAdhiambo)
+[@benkimz](https://github.com/benkimz), [@MiriamAdhiambo](https://github.com/MiriamAdhiambo) [@Quingsley](https://github.com/Quingsley)
