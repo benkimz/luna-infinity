@@ -1,5 +1,5 @@
 # Data Source and processing stages
-### Data gathering was done from (Kilimo Open Data)[http://kilimodata.developlocal.org/dataset/?organization=crops].
+  Data gathering was done from [Kilimo Open Data](http://kilimodata.developlocal.org/dataset/?organization=crops).
 
 ### Data processing and visualization was done in google colab in the following steps:
 
