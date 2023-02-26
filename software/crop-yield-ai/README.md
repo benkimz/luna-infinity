@@ -4,11 +4,13 @@ Want to predict? It's super easy.
 ```python
 from inference import make_prediction
 
+# sample values alongside
+
 query = {
-    'county': 'county goes here', 
-    'crop': 'crop of interest', 
-    'year': 'year of interest', 
-    'area': 'area of interest in HA'
+    'county': 'county goes here', # Nyeri
+    'crop': 'crop of interest', # maize
+    'year': 'year of interest', # 2018
+    'area': 'area of interest in HA' # 2 (units = HA)
 }
 
 # We get the production in Metric tons & yield in production per unit HA
