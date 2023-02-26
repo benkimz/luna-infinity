@@ -2,18 +2,22 @@
 Want to predict? It's super easy.
 
 ```python
+from inference import make_prediction
+
 query = {
     'county': 'county goes here', 
     'crop': 'crop of interest', 
     'year': 'year of interest', 
     'area': 'area of interest in HA'
 }
-```
 
-```python
-# production in Metric tons
-# yield in production per unit HA
-output = (production, yield)
+# We get the production in Metric tons & yield in production per unit HA
+
+output = make_prediction(query)
+
+production, yields = output
+
+print("Production in metric tons: {}, Yield (metric tons / hectare): {}".format(production, yields))
 ```
 
 To make a prediction, a python dictionary is passed to a function/ api that does inference from the model and returns the desired outputs.
