@@ -1,0 +1,98 @@
+@import url("https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@300&family=Gruppo&family=Kanit:ital,wght@0,300;0,400;1,500&family=Libre+Barcode+128+Text&family=Libre+Barcode+39+Extended&family=Montserrat:ital,wght@0,100;0,300;0,400;0,500;0,600;0,700;1,100;1,300;1,400;1,500;1,600&family=Open+Sans:wght@300&family=Playfair+Display:ital,wght@1,400;1,500;1,600&family=Roboto+Serif:ital,opsz,wght@0,8..144,100;0,8..144,200;0,8..144,300;1,8..144,100&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'open sans';
+}
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: gray;
+}
+.header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container h1 {
+  font-size: 30px;
+  color: azure;
+}
+.container {
+  margin: 20px auto;
+  max-width: 700px;
+  border: 1px solid #ccc;
+  padding: 20px;
+  background: rgb(68, 65, 65);
+  position: relative;
+  top: 100px;
+}
+.results-container {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  position: relative;
+  font-size: 18px;
+  font-weight: 800;
+  letter-spacing: 1px;
+  padding: 12px 10px;
+  height: 50px;
+  width: 400px;
+  background-color: rgb(190, 190, 190);
+  color: azure;
+  margin: 20px 10px 20px 10px;
+}
+.results-container .results {
+  word-wrap: break-word;
+  max-width: calc(100% - 40px);
+}
+.results-container .btn {
+  font-size: 20px;
+  position: absolute;
+  top: 5px;
+  right: 5px;
+  height: 40px;
+  width: 40px;
+  transition: 0.3s ease;
+}
+.results-container .btn:hover {
+  transform: scale(1.1);
+}
+.btn {
+  border: none;
+  color: #000;
+  cursor: pointer;
+  font-size: 16px;
+  padding: 8px 12px;
+  background-color: #fff;
+}
+.setting {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 15px 0;
+  font-size: 20px;
+  font-weight: 800;
+  color: azure;;
+}
+.generate-btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+}
+.gen-btn {
+  width: 400px;
+  height: 40px;
+  font-size: 20px;
+  background-color: rgb(167, 161, 161);
+  font-weight: 800;
+  transition: 0.1s ease-in;
+  
+}
+.gen-btn:hover{
+    background-color: rgb(206, 196, 196);
+}

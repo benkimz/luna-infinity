@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h2>Create Account</h2>
+        </div>
+        <form action="form.html" name="myform" id="myform" class="myform">
+            <div class="form-origin">
+                <label for="fname">Firstname</label>
+                <input type="text" id="fname" placeholder="Firstname">
+                <div class="error"></div>
+            </div>
+            <div class="form-origin">
+                <label for="lname">Firstname</label>
+                <input type="text" id="lname" placeholder="Lastname">
+                <div class="error"></div>
+            </div>
+            <div class="form-origin">
+                <label for="email">Email Address</label>
+                <input type="email" id="email" placeholder="Email Address">
+                <div class="error"></div>
+            </div>
+            <div class="form-origin">
+                <label for="password">Password</label>
+                <input type="password" id="password" placeholder="Password">
+                <i class="far fa-eye" id="eye" onclick="see()"></i>
+                <i class="far fa-eye-slash" id="eye2" onclick="see()"></i>
+
+                <div class="error"></div>
+                <div class="pass-check">
+                    <div id="check01" class="check01"><i class="far fa-check-circle"></i> <span>length more than 8</span></div>
+                    <div id="check02" class="check02"><i class="far fa-check-circle"></i> <span>Length more than 10</span></div>
+                    <div id="check03" class="check03"><i class="far fa-check-circle"></i> <span>Contains special characters</span></div>
+                    <div id="check04" class="check04"><i class="far fa-check-circle"></i> <span>Contains numerical characters</span></div>
+                    <div id="check05" class="check05"><i class="far fa-check-circle"></i> <span>Should not contain spaces</span></div>
+                    <div id="check06" class="check06"><i class="far fa-check-circle"></i> <span>Should have a capital letter</span></div>
+                    
+                </div>
+            </div>
+             <div class="form-origin">
+                <label for="password2">Confirm Password</label>
+                <input type="password" id="password2" placeholder="Confirm Password">
+                <i class="far fa-eye" id="eye-confirm" onclick="see2()"></i>
+                <i class="far fa-eye-slash" id="eye2-confirm" onclick="see2()"></i>
+                <div class="error"></div>
+            </div>
+            <input type="submit" value="Submit" id="submit">
+        </form>
+    </div>
+
+    <script src="index.js"></script>
+</body>
+</html>
