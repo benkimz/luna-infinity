@@ -1,4 +1,24 @@
-# Data Source and processing stages
+# Crop Yield Prediction AI
+Want to predict? It's super easy.
+
+```python
+query = {
+    'county': 'county goes here', 
+    'crop': 'crop of interest', 
+    'year': 'year of interest', 
+    'area': 'area of interest in HA'
+}
+```
+
+```python
+# production in Metric tons
+# yield in production per unit HA
+output = (production, yield)
+```
+
+To make a prediction, a python dictionary is passed to a function/ api that does inference from the model and returns the desired outputs.
+
+### Data Source and processing stages
   Data gathering was done from [Kilimo Open Data](http://kilimodata.developlocal.org/dataset/?organization=crops).
 
 ### Data processing and visualization was done in google colab in the following steps:
