@@ -29,4 +29,3 @@ Tracks covered in this repo include:
 
 # Contributors
 [@benkimz](https://github.com/benkimz), [@MiriamAdhiambo](https://github.com/MiriamAdhiambo) [@Quingsley](https://github.com/Quingsley)
-@benkimz
