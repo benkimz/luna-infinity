@@ -55,4 +55,4 @@ To make a prediction, a python dictionary is passed to a function/ api that does
 
 ### Model deployment
 
-### Model was finally deployed
+* Model deployment
